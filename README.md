@@ -47,6 +47,8 @@ Response
 }
 
 
+
+
 ## Create a channel
 
 <strong> Post </strong> /channels/
@@ -80,6 +82,9 @@ Response
     }
 
 }
+
+
+
 
 ## Get a specific channel
 
