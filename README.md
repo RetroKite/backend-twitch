@@ -1,5 +1,9 @@
 # backend-twitch
 
+### IP Address
+
+<strong> http://34.75.225.72/ </strong> 
+
 ## Get all channels
 
 <strong> Get </strong> /channels/
