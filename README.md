@@ -62,14 +62,23 @@ Request
 Response
 
 {
+
     "success": true,
+
     "data": {
+
         "id": <ID>,
+
         "name": <USER INPUT FOR NAME>,
+
         "videos": [],
+
         "subscribers": [],
+
         "supporters": []
+
     }
+
 }
 
 ## Get a specific channel
@@ -79,6 +88,7 @@ Response
 Response
 
 {
+
     "success": true,
 
     "data": { 
