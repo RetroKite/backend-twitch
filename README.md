@@ -4,6 +4,8 @@
 
 <strong> Get </strong> /channels/
 
+Response
+
 {
 
     "success": true,
@@ -43,3 +45,55 @@
     ]
 
 }
+
+
+## Create a channel
+
+<strong> Post </strong> /channels/
+
+Request
+
+{
+
+	"name": <USER INPUT>
+
+}
+
+Response
+
+{
+    "success": true,
+    "data": {
+        "id": <ID>,
+        "name": <USER INPUT FOR NAME>,
+        "videos": [],
+        "subscribers": [],
+        "supporters": []
+    }
+}
+
+## Get a specific channel
+
+<strong> Get </strong> /channels/{id}
+
+Response
+
+{
+    "success": true,
+
+    "data": { 
+           
+        "id": <ID>,
+
+            "name": <USER INPUT FOR NAME>,
+
+            "videos": [ <SERIALIZED ASSIGNMENT WITHOUT CHANNEL FIELD>, ... ],
+
+            "subscribers": [ <SERIALIZED USER WITHOUT CHANNEL FIELD>, ... ],
+
+
+            "supporters": [ <SERIALIZED USER WITHOUT CHANNEL FIELD>, ... ]
+
+    }
+}
+
