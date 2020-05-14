@@ -4,6 +4,7 @@
 
 <strong> Get </strong> /channels/
 
+{
 Response
 
 {
@@ -45,7 +46,7 @@ Response
     ]
 
 }
-
+}
 
 
 
